@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
+import CreateRecipe from "./pages/CreateRecipe";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home /> } />
         <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="/register" element={<Register setIsLoggedIn={setIsLoggedIn} />} />
+        <Route path="/create" element={<CreateRecipe setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="/home" element={ <Home /> } />
       </Routes>
     </Router>
