@@ -12,7 +12,7 @@ const CreateRecipe = ({ setIsLoggedIn }) => {
 
 
     const handleCreate = async () => {
-        const res = await axios.post("http://localhost:3000/create", { name, description, ingredients, imageurl, cookingtime });
+        const res = await axios.post("https://back-end-1-d8c7.onrender.com/create", { name, description, ingredients, imageurl, cookingtime });
         localStorage.setItem("username", res.data.username);
         setIsLoggedIn(true);
         navigate("/home");
