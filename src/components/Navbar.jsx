@@ -21,7 +21,7 @@ const Navbar = () => {
                                 <a class="nav-link active" href="#" >Saved Recipe</a>
                             </li>
                         </ul>
-                        <a class="p-2 bg-light text-dark text-decoration-none" href="/login">Login </a>  <a class="p-2 bg-light text-dark text-decoration-none" href="/register"> Register</a>
+                        <a class="p-2 bg-light text-dark text-decoration-none" href="https://back-end-1-d8c7.onrender.com/login">Login </a>  <a class="p-2 bg-light text-dark text-decoration-none" href="https://back-end-1-d8c7.onrender.com/register"> Register</a>
                     </div>
                 </div>
             </nav>
